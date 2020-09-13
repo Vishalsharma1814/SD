@@ -1,0 +1,240 @@
+body{
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+h1{
+  font-family:"Montserrat";
+  font-size: 3.5rem !important;
+  line-height: 1.5;
+  font-weight: lighter !important;
+  color: rgba(255,255,255,.9);
+}
+h2{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3{
+  font-weight: 900;
+}
+.row{
+  font-weight: lighter;
+}
+#title{
+  background-color: #41444b;
+  color: white;
+  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("../images/bg-image.jpg");
+background-size: cover;
+
+}
+
+.container-fluid{
+  padding: 3% 10% 7%;
+}
+.feature-heading{
+  color: rgba(255,255,255,.9);
+}
+#logo{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2.2rem !important;
+  color: rgba(255,255,255,.9);
+  line-height: normal;
+}
+.description{
+  font-family: 'Josefin Sans', sans-serif;
+  border-bottom: 1px solid white;
+  font-weight: normal;
+  padding-bottom: 5px;
+}
+#CTA-text{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.8rem;
+  margin-bottom: 0px;
+  padding: 0;
+}
+
+#CTA-1{
+  margin-top: 0;
+  border-radius: 0;
+}
+.simba-logo{
+  width: 10%;
+  height: 10%;
+background-color: black;
+backface-visibility: visible;
+border-radius: 50%;
+}
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.nav-item{
+  padding: 0 15px;
+}
+.nav-link{
+  font-size: 1.3rem;
+  font-weight: lighter;
+}
+.nav-link:hover{
+  color: white !important;
+  font-weight: lighter !important;
+}
+.Execution{
+  display: inline;
+}
+.Planning{
+  display: inline;
+}
+.DP{
+  display: inline;
+}
+.DOC{
+  display: inline;
+}
+.about-para{
+  font-size: 1.3rem;
+  line-height: 2rem;
+   letter-spacing: 1px;
+}
+.fas{
+  padding-right: 15px;
+}
+.top-img{
+  width: 60%;
+  position: absolute;
+  right: 25%;
+}
+#features{
+  padding: 7% 15%;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.9);
+  /* background-color:#333; */
+
+}
+.count{
+  padding: 7% 15%;
+  position: relative;
+  color: rgba(255,255,255,.9);
+  background-color: rgba(0,0,0,.8);
+}
+.workshop-para{
+  padding: 7% 15%;
+  position: relative;
+  text-align: left;
+
+}
+.feature-box{
+  text-align: left;
+  padding: 5%;
+}
+p{
+  color: #8f8f8f;
+}
+.second-part{
+  padding-bottom: 45px;
+
+  color: #cf7500;
+}
+.second-part:hover{
+  color: black;
+}
+/* testimonial styles */
+#testimonials{
+  background: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.9)), url("../images/Workshop-img.jpg");
+  background-size: cover;
+  text-align: center;
+  background-color: #41444b;
+  color: rgba(255, 255, 255, 0.9);
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin:20px;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-images{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+#pricing{
+  padding: 100px;
+  background-color: #f4f4f4;
+}
+@media (max-width: 1000px)  {
+  #title{
+    text-align: center;
+  }
+  .top-img{
+    position: static;
+  }
+
+}
+#cta{
+  background-color: rgba(0, 0, 0, 0.8);
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+}
+
+#footer{
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 7% 15% 2%;
+  text-align: center;
+}
+.social-icons{
+  margin: 20px 10px;
+  color: black;
+
+}
+#fc-icon:hover{
+  color: #3b5998;
+}
+#insta-icon:hover{
+ color:#e1306c;
+}
+#twitter-icon:hover{
+  color: #00acee;
+}
+#gmail-icon:hover{
+  color: #d44638;
+}
+.contact-more{
+  margin-left: 30%;
+  font-size: 1rem;
+  font-weight: lighter;
+  padding: 15px 55px !important;
+  border-radius: 0;
+}
+.contact-more:hover{
+  background-color: #f17808;
+}
+.btn-style{
+  margin: 5% 3% 5% 0%;
+  font-size: 1rem;
+  font-weight: lighter;
+  padding: 15px 55px !important;
+
+}
+.btn-style:hover{
+  background-color: #f17808 !important;
+}
+.anchor-tag{
+  text-decoration: none;
+  color: #ff4b5c;
+  font-size:2rem;
+}
+.anchor-tag:hover{
+  text-decoration: none;
+}
+.ieda-btn{
+  margin-top: 0;
+  border-radius: 0;
+  font-size: 1rem;
+  font-weight: lighter;
+  padding: 15px 55px !important;
+}
